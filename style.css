@@ -1,0 +1,98 @@
+/* body{
+    background-color: lavenderblush;
+} */
+
+/* Por si se quiere cambiar de color el nav */
+/* nav{
+    background-color: lightpink;
+} */
+
+
+/* Código para la sección de Header */
+
+/* Ayudo a visualizar la secciòn, lugar, el espacio */
+/* .hero{
+    height: 100vh;
+} */
+
+/* !important = es para darle prioridad a los elementos que queremos cambiar antes del ; */
+/* O el color se pone como style en código en línea */
+/*  <a class="navbar-brand text-principal" href="#">Nueva Villa</a> */
+.text-principal{
+    color: goldenrod !important;
+}
+
+hr{
+    background-color: goldenrod;
+}
+
+.gold{
+    border: 2px solid goldenrod;
+}
+
+.gold:hover{
+    border: 4px solid goldenrod;
+}
+
+
+/* Código para el encabezado de las cartas */
+.alto{
+    height: 50vh;
+}
+
+/* Son válidos los valores negativos */
+.subir{
+    margin-top: -20vh;
+}
+
+/* em = medidad relativas 1em = 16px son cuadrados */
+/* rem = son rectangulares y es cuando no se desfasan */
+
+.alert-gold{
+    background-color: goldenrod;
+    color: black;
+}
+
+.text-gold{
+    color: goldenrod;
+}
+
+
+
+/* Código para la vista de Productos.  */
+
+.img-pan{
+    width: 180px;
+    height: 180px;
+    /* Para que al pasar la imagen con el curso salga una manita */
+    /* Indica un objetivo señala un objeto o elemento */
+    cursor: pointer;
+    opacity: .7;
+    /* 1s = un segundo .6 = milisengundos .6 = 6 milisegundos */
+    transition: all .7s;
+}
+
+.img-pan:hover{
+    opacity: 1;
+    width: 200px;
+    height: 200px;
+    transition: all .7s;
+}
+
+/* .rol{
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    Opera, Chrome
+    -webkit-transform: rotate(90deg);  
+    margin-left: 112px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    position:relative;
+} */
+
+
+
+
+
+
+

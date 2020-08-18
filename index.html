@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- link o estilo externo propio -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Nueva Villa</title>
+  </head>
+
+  <body>
+    <!-- navegación -->
+
+    <!-- breack-point -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand text-principal" href="#">Nueva Villa</a>
+
+      <!-- funcion de js  -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- ml-auto = display flex flex-end -->
+        <!-- utilizamos el ml-auto para mandar o enviar al extremo derecho la lista ul -->
+        <!-- los valores de bootstrap van de 0 a 5 -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <!-- href = Valor de el nombre del documento con la extesión -->
+            <a class="nav-link" href="catalogo.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sucursales.html">Sucursales</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- hero = header = encabezado -->
+    <div class="jumbotron hero">
+      <div class="row text-center">
+        <div class="col-sm-12 col-md-6 align-self-center">
+          <h1 class="display-4">Panificadora</h1>
+          <h2 class="text-principal">Nueva Villa</h2>
+          <p class="lead">
+            Brindando servicio hasta sus hogares desde 1988.
+          </p>
+          <hr class="my-4" />
+          <p>
+            La mejor calidad en pan de muerto y roscas, con los mejores
+            productos del mercado, frescos y de calidad.
+          </p>
+          <a class="btn btn-outline-dark btn-block gold" href="#" role="button"
+            >mas inforamción.</a
+          >
+        </div>
+
+        <div class="col-sm-12 col-md-6 align-self-center mt-4">
+          <img
+            src="https://cdn.pixabay.com/photo/2016/11/29/10/09/bakery-1868925_960_720.jpg"
+            alt="panaderia"
+            class="img-fluid rounded-circle"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- eslogan -->
+    <div class="container-fluid bg-dark py-3 alto">
+        <h2 class="text-center text-light display-5 mt-3">Nuestros especiales</h2>
+        <h2 class="text-center text-muted ml-5 display-5">de todo el año.</h2>
+    </div>
+
+    <!-- cartas -->
+    <div class="container subir bg-light py-3 shadow-lg">
+      <div class="card-deck">
+        <!-- card 1 -->
+        <div class="card">
+          <img
+            src="https://img.chilango.com/2019/09/2019-09-26-pan-de-muerto-relleno3-960x720.jpg"
+            class="card-img-top"
+            alt="pan de muerto"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center">Frutos del bosque</h5>
+            <p class="card-text text-justify">
+              Deleitate con nuestra combinación de fresas, moras y zarzamoras.
+            </p>
+          </div>
+          <div class="card-footer bg-transparent border-0">
+            <p class="card-text">
+              <span class="badge badge-pill badge-dark gold float-right"
+                >$60</span
+              >
+            </p>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="card">
+          <img
+            src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/866761E3-353B-4F10-86D0-FB01425EDF69/Derivates/1362AD2F-E8AF-427E-AFDC-3B5AE2E579F1.jpg"
+            class="card-img-top"
+            alt="pan de muerto"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center">Relleno de chocolate</h5>
+            <p class="card-text text-justify">
+              Prueba una explosión de sabor de chocolate con la combinación de
+              nuestra receta de pan de muerto.
+            </p>
+          </div>
+          <!-- bg-transparent para no poner color de fondo border-0 para que no tenga borde -->
+          <div class="card-footer bg-transparent border-0">
+            <p class="card-text">
+              <span class="badge badge-pill badge-dark gold float-right"
+                >$40</span
+              >
+            </p>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="card">
+          <img
+            src="https://cdn.kiwilimon.com/recetaimagen/25682/th5-640x426-22089.jpg"
+            class="card-img-top"
+            alt="rosca"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center">Rosca de mantequilla</h5>
+            <p class="card-text">
+              Disfruta en familia de nuestra deliciosa rosca sabor mantequilla
+              con cobuerta de naranja crocante decorada de acitron y ate de
+              guayaba y manzana .
+            </p>
+          </div>
+          <div class="card-footer bg-transparent border-0">
+            <p class="card-text">
+              <span class="badge badge-pill badge-dark gold float-right"
+                >$110</span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- carousel o slide = web component  -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide mt-5"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <!-- tarjet = objetivo  overflow: hidden -->
+        <li
+          data-target="#carouselExampleCaptions"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <!-- caja contenedora de la imagenes  -->
+      <div class="carousel-inner">
+        <!-- img-1 o caja con la imagen 1 -->
+        <div class="carousel-item active">
+          <img src="https://image.freepik.com/foto-gratis/diferente-pan-recien-horneado-mesa_23-2147872499.jpg" class="d-block w-100" alt="imagen-1" />
+          <!-- caja de texto -->
+          <div class="carousel-caption d-none d-md-block text-dark shadow-lg">
+            <h5>Pan blanco y de semillas </h5>
+            <p>Conozca nuestra variedad de pan blanco solo o con semillas que será ideal para sus comidas.</p>
+          </div>
+        </div>
+        <!-- caja2 -->
+        <div class="carousel-item">
+          <img src="https://image.freepik.com/foto-gratis/panadero-pan-fresco-manos_169016-3677.jpg" class="d-block w-100" alt="imagen-2" />
+          <div class="carousel-caption d-none d-md-block shadow-lg">
+            <h5>Pan Árabe</h5>
+            <p>Pruebe nuestro delicioso pan integral negro con salvado de trigo el cual será ideal para su digestión.</p>
+          </div>
+        </div>
+        <!-- caja3 -->
+        <div class="carousel-item">
+          <img src="https://image.freepik.com/foto-gratis/vista-frontal-delicioso-pastel-arandanos-frescos-escritorio-blanco-pastel-galleta-te-baya-azucar_140725-21660.jpg" class="d-block w-100" alt="imagen-3" />
+          <div class="carousel-caption d-none d-md-block shadow-lg">
+            <h5>Rosquilla Fuit</h5>
+            <p>No puede dejar de deleitar su paladar con la explosión de sabores de nuestra rosquilla libre de gluten.</p>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleCaptions"
+        role="button"
+        data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleCaptions"
+        role="button"
+        data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- entregas a domicilio -->
+    <div class="container mt-3 ">
+      <div class="jumbotron jumbotron-fluid bg-dark text-light">
+        
+        <div class="container">
+          <h3 class="display-4 text-center">Entregas a domicilio.</h3>
+          <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+          <hr>
+          <!-- alerta -->
+          <div class="col-sm-12 col-lg-4 mx-auto">
+            <div class="alert alert-gold text-center" role="alert">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+              </svg> <span class="ml-2">(55) 55 - 21 - 80 - 66 - 71</span> 
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-sm-12 col-md-6 align-self-center text-gold text-center">
+              <h3 class="text-light">Servicio local</h3>
+              
+              <svg width="10em" height="10em" viewBox="0 0 16 16" class="bi bi-bicycle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M3 12a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                <path fill-rule="evenodd" d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935 2.375 3.8a.5.5 0 1 1-.848.53L10.5 6.943l-2.076 3.322A.5.5 0 0 1 8 10.5H3a.5.5 0 0 1-.424-.765L5 5.857V5h-.5a.5.5 0 0 1-.5-.5zm1.5 2.443L3.902 9.5h3.196L5.5 6.943zM8 9.057L9.598 6.5H6.402L8 9.057z"/>
+              </svg>
+              <p>costo extra  $10</p>
+            </div>
+            <div class="col-sm-12 col-md-6 align-self-center text-gold text-center">
+              <h3 class="text-light">Servicio externo</h3>
+              <svg width="10em" height="10em" viewBox="0 0 16 16" class="bi bi-box-seam p-3" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
+              </svg>
+              <p>coto extra de $20 a $50</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer mt-auto py-5 bg-dark text-center">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-3 mt-2">
+            <span class="text-muted">Panaderia Nueva Villa.</span>
+          </div>
+          <div class="col-sm-12 col-md-6 mt-2">
+            <span class="text-muted">Norte 64 #8920 Col. Salvador Díaz Mirón .</span>
+          </div>
+          <div class="col-sm-12 col-md-3 mt-2">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill text-muted" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+            </svg> <span class="ml-2 text-muted">(55) 55 - 21 - 80 - 66 - 71</span> 
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
