@@ -45,10 +45,10 @@
     <div class="jumbotron jumbotron-fluid mt-3 bg-dark text-light">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-sm-12 col-md-8">
                     <h1 class="display-4">Productos</h1>
                 </div>
-                <div class="col-6">
+                <div class="col-sm-12 col-md-4">
                     <svg width="5em" height="5em" viewBox="0 0 16 16" class="bi bi-basket text-gold float-right"
                         fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -265,15 +265,14 @@
         Launch demo modal
     </button> -->
 
-    <!-- Modal Pan 1 Cuernito -->
+    <!-- ************* FILA 1 DE MODAL ******************** -->
+    <!-- Modal 1 Pan Cuernito -->
     <div class="modal fade" id="cuerno" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <!-- Sombrea el fondo -->
         <div class="modal-dialog modal-lg" role="document">
-
             <!-- Empieza la caja del modal -->
             <div class="modal-content">
-
                 <!-- cabeza -->
                 <div class="modal-header bg-dark text-light">
                     <h5 class="modal-title" id="exampleModalLabel">Cuernito</h5>
@@ -286,34 +285,34 @@
                 <div class="modal-body">
                     <img src="https://cdn.pixabay.com/photo/2016/03/27/21/59/bread-1284438_960_720.jpg"
                         class="img-fluid" alt="pan-1">
+                    <!-- termina imagen -->
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-8">
+                                <p class="text-muted text-justify">
+                                    Delicioso cuerno crujiente con una cobertura de mantequilla y relleno de
+                                    chocolate.
+                                </p>
+                            </div>
+                            <div class="col-4 align-self-center">
+                                <p class="float-right badge badge-info">$10.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button> -->
                 </div>
 
                 <!-- Pie -->
                 <div class="modal-footer">
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-6">
-                                <p class="text-muted text-justify">
-                                    Delicioso cuerno crujiente con una cobertura de mantequilla y relleno de chocolate.
-                                </p>
-                            </div>
-                            <div class="col-3">
-                                <h3>$10.00</h3>
-                            </div>
-                            <div class="col-3">
-                                <button type="button" class="btn btn-danger float-right"
-                                    data-dismiss="modal">Cerrar</button>
-                            </div>
-
-                        </div>
+                    <div class="col-3">
+                        <button type="button" class="btn btn-danger float-right" data-dismiss="modal">Cerrar</button>
                     </div>
-                    <!-- <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button> -->
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Modal Pan 2 Pastel -->
+    <!-- Modal 2 Pan Pastel -->
     <div class="modal fade" id="pastel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <!-- Sombrea el fondo -->
@@ -334,21 +333,21 @@
                 <div class="modal-body">
                     <img src="https://cdn.pixabay.com/photo/2016/06/20/23/50/mixed-berries-1470226_960_720.jpg"
                         class="img-fluid" alt="pan-2">
-                </div>
-
-                <!-- Pie -->
-                <div class="modal-footer">
                     <div class="col-12">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-8">
                                 <p class="text-muted text-justify">
                                     Delicioso pastel de frutos del bosque que contiene frambuesas, moras, uvas,
                                     zarzamoras y una cubierta de queso, ideal para reuniones con los amigos.
                                 </p>
                             </div>
-                            <div class="col-3">
-                                <h3>$250.00</h3>
+                            <div class="col-4 align-self-center">
+                                <p class="float-right badge badge-info">$250.00</p>
                             </div>
+                        </div>
+
+                        <!-- Pie -->
+                        <div class="modal-footer">
                             <div class="col-3">
                                 <button type="button" class="btn btn-danger float-right"
                                     data-dismiss="modal">Cerrar</button>
@@ -362,7 +361,7 @@
         </div>
     </div>
 
-    <!-- Modal Pan 3 Dona Homero -->
+    <!-- Modal 3 Pan Dona Homero -->
     <div class="modal fade" id="dona" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <!-- Sombrea el fondo -->
@@ -383,21 +382,21 @@
                 <div class="modal-body">
                     <img src="https://cdn.pixabay.com/photo/2014/11/10/00/53/donut-524558_960_720.jpg" class="img-fluid"
                         alt="pan-3">
-                </div>
-
-                <!-- Pie -->
-                <div class="modal-footer">
                     <div class="col-12">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-8">
                                 <p class="text-muted text-justify">
                                     Disfruta de la famosísima dona de Homero con una cubierta sabor fresas con crema
                                     identica como la viste en la tv.
                                 </p>
                             </div>
-                            <div class="col-3">
-                                <h3>$15.00</h3>
+                            <div class="col-4 align-self-center">
+                                <p class="float-right badge badge-info">$15.00</p>
                             </div>
+                        </div>
+
+                        <!-- Pie -->
+                        <div class="modal-footer">
                             <div class="col-3">
                                 <button type="button" class="btn btn-danger float-right"
                                     data-dismiss="modal">Cerrar</button>
@@ -411,7 +410,7 @@
     </div>
 
     <!-- ************* FILA 2 DE MODAL ******************** -->
-    <!-- Modal Pan 4 Cupcakes -->
+    <!-- Modal 4 Pan Cupcakes -->
     <div class="modal fade" id="cupcakes" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <!-- Sombrea el fondo -->
@@ -432,21 +431,21 @@
                 <div class="modal-body">
                     <img src="https://cdn.pixabay.com/photo/2016/12/02/13/41/muffin-1877834_960_720.jpg"
                         class="img-fluid" alt="pan-4">
-                </div>
-
-                <!-- Pie -->
-                <div class="modal-footer">
                     <div class="col-12">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-8">
                                 <p class="text-muted text-justify">
                                     Prueba nuestros exquisitos cupcakes de café que harán una explosión de sabor en tu
                                     paladar.
                                 </p>
                             </div>
-                            <div class="col-3">
-                                <h3>$15.00</h3>
+                            <div class="col-4 align-self-center">
+                                <p class="float-right badge badge-info">$15.00</p>
                             </div>
+                        </div>
+
+                        <!-- Pie -->
+                        <div class="modal-footer">
                             <div class="col-3">
                                 <button type="button" class="btn btn-danger float-right"
                                     data-dismiss="modal">Cerrar</button>
@@ -459,7 +458,7 @@
         </div>
     </div>
 
-    <!-- Modal Pan 5 Roles de Canela -->
+    <!-- Modal 5 Pan Roles de Canela -->
     <div class="modal fade" id="roles" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <!-- Sombrea el fondo -->
@@ -480,20 +479,20 @@
                 <div class="modal-body">
                     <img src="https://cdn.pixabay.com/photo/2016/05/26/16/27/baking-1417494_960_720.jpg"
                         class="img-fluid" alt="pan-5">
-                </div>
-
-                <!-- Pie -->
-                <div class="modal-footer">
                     <div class="col-12">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-8">
                                 <p class="text-muted text-justify">
                                     Disfruta de nuestros roles de canela con azúcar glass y trocitos de nuez.
                                 </p>
                             </div>
-                            <div class="col-3">
-                                <h3>$12.00</h3>
+                            <div class="col-4 align-self-center">
+                                <p class="float-right badge badge-info">$12.00</p>
                             </div>
+                        </div>
+
+                        <!-- Pie -->
+                        <div class="modal-footer">
                             <div class="col-3">
                                 <button type="button" class="btn btn-danger float-right"
                                     data-dismiss="modal">Cerrar</button>
@@ -506,7 +505,7 @@
         </div>
     </div>
 
-    <!-- Modal Pan 6 Bigotes -->
+    <!-- Modal 6 Pan Bigotes -->
     <div class="modal fade" id="bigotes" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <!-- Sombrea el fondo -->
@@ -527,20 +526,20 @@
                 <div class="modal-body">
                     <img src="https://cdn.pixabay.com/photo/2019/03/24/14/25/croissants-4077817_960_720.jpg"
                         class="img-fluid" alt="pan-6">
-                </div>
-
-                <!-- Pie -->
-                <div class="modal-footer">
                     <div class="col-12">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-8">
                                 <p class="text-muted text-justify">
                                     Prueba nuestros nuevos bigotes rellenos de crema pastelera con fresas silvestres.
                                 </p>
                             </div>
-                            <div class="col-3">
-                                <h3>$18.00</h3>
+                            <div class="col-4 align-self-center">
+                                <p class="float-right badge badge-info">$18.00</p>
                             </div>
+                        </div>
+
+                        <!-- Pie -->
+                        <div class="modal-footer">
                             <div class="col-3">
                                 <button type="button" class="btn btn-danger float-right"
                                     data-dismiss="modal">Cerrar</button>
@@ -554,7 +553,7 @@
     </div>
 
     <!-- ************* FILA 3 DE MODAL ******************** -->
-    <!-- Modal Pan 7  -->
+    <!-- Modal 7 Pan Muffin -->
     <div class="modal fade" id="muffin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <!-- Sombrea el fondo -->
@@ -575,21 +574,21 @@
                 <div class="modal-body">
                     <img src="https://cdn.pixabay.com/photo/2017/09/14/14/33/cupcake-2749204_960_720.jpg"
                         class="img-fluid" alt="pan-7">
-                </div>
-
-                <!-- Pie -->
-                <div class="modal-footer">
                     <div class="col-12">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-8">
                                 <p class="text-muted text-justify">
                                     Esponjoso muffin sabor vainilla, relleno de nuez con arándanos y un toping de
                                     chantillí sabor zarzamora con zarzamoras congeladas.
                                 </p>
                             </div>
-                            <div class="col-3">
-                                <h3>$15.00</h3>
+                            <div class="col-4 align-self-center">
+                                <p class="float-right badge badge-info">$15.00</p>
                             </div>
+                        </div>
+
+                        <!-- Pie -->
+                        <div class="modal-footer">
                             <div class="col-3">
                                 <button type="button" class="btn btn-danger float-right"
                                     data-dismiss="modal">Cerrar</button>
@@ -602,7 +601,7 @@
         </div>
     </div>
 
-    <!-- Modal Pan 8  -->
+    <!-- Modal Pan 8 Tarta  -->
     <div class="modal fade" id="tarta" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <!-- Sombrea el fondo -->
@@ -623,20 +622,20 @@
                 <div class="modal-body">
                     <img src="https://cdn.pixabay.com/photo/2015/08/18/22/56/fruit-895005_960_720.png" class="img-fluid"
                         alt="pan-8">
-                </div>
-
-                <!-- Pie -->
-                <div class="modal-footer">
                     <div class="col-12">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-8">
                                 <p class="text-muted text-justify">
                                     Deliciosa tarta con base de galleta sabor mantequilla y decoración de frutos rojos.
                                 </p>
                             </div>
-                            <div class="col-3">
-                                <h3>$35.00</h3>
+                            <div class="col-4 align-self-center">
+                                <p class="float-right badge badge-info">$35.00</p>
                             </div>
+                        </div>
+
+                        <!-- Pie -->
+                        <div class="modal-footer">
                             <div class="col-3">
                                 <button type="button" class="btn btn-danger float-right"
                                     data-dismiss="modal">Cerrar</button>
@@ -649,7 +648,7 @@
         </div>
     </div>
 
-    <!-- Modal Pan 9  -->
+    <!-- Modal Pan 9 Pay de Fresa -->
     <div class="modal fade" id="pay" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <!-- Sombrea el fondo -->
         <div class="modal-dialog modal-lg" role="document">
@@ -669,21 +668,21 @@
                 <div class="modal-body">
                     <img src="https://cdn.pixabay.com/photo/2014/08/26/12/49/the-cake-427920_960_720.jpg"
                         class="img-fluid" alt="pan-9">
-                </div>
-
-                <!-- Pie -->
-                <div class="modal-footer">
                     <div class="col-12">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-8">
                                 <p class="text-muted text-justify">
                                     Exquisito y cremoso pay con base de galleta sabor mantequilla, pay de queso con
                                     fresa.
                                 </p>
                             </div>
-                            <div class="col-3">
-                                <h3>$30.00</h3>
+                            <div class="col-4 align-self-center">
+                                <p class="float-right badge badge-info">$30.00</p>
                             </div>
+                        </div>
+
+                        <!-- Pie -->
+                        <div class="modal-footer">
                             <div class="col-3">
                                 <button type="button" class="btn btn-danger float-right"
                                     data-dismiss="modal">Cerrar</button>
@@ -695,12 +694,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
 
 
 
