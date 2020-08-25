@@ -1,0 +1,88 @@
+/* Color Theme Swatches in Hex */
+.color-1 { color: #734D70; }
+.color-2 { color: #5EF2E3; }
+.color-3 { color: #F2E2DC; }
+.color-4 { color: #593532; }
+.color-5 { color: #F29C94; }
+.color-6 { color: #0554F2; }
+.color-7 { color: #460273; }
+
+/* Color Theme Swatches in Hex */
+.background-1 { background: #B799BF; }
+.background-2 { background: #946AA6; }
+.background-3 { background: #460273; }
+.background-4 { background: #2E0259; }
+.background-5 { background: #F2ECE4; }
+.background-6 { background: #F2E2DC; }
+.background-7 { background: #e7a2fa; }
+
+.circulo{
+    border-radius: 50px;
+    border: 5px solid #460273;
+}
+
+hr{
+    border-top: 3px solid #F29C94;
+}
+
+.inverse{
+    border-top: 3px solid  #d60bc5;
+}
+
+.linea{
+    border-left: 3px solid #460273;
+}
+
+/* .linea2{
+    border-left: 3px solid #460273;
+    border-bottom: 3px solid #460273;
+} */
+
+
+.altas{
+    text-transform: uppercase;
+}
+
+.card{
+    background-color: #ffffff;
+    /* Es para darle movimiento al elemento */
+    transition: 0.6s transform cubic-bezier(.17,.67,.83,.67);
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, .08);
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, .6);
+}
+
+.card-1{
+    background-image: url("https://ionicframework.com/img/getting-started/ionic-native-card.png");
+    background-position: right;
+    background-size: 80px;
+    background-repeat: no-repeat;
+}
+
+.card-2{
+    background-image: url("https://ionicframework.com/img/getting-started/components-card.png");
+    background-position: right;
+    background-size: 80px;
+    background-repeat: no-repeat;
+}
+
+.card-3{
+    background-image: url("https://ionicframework.com/img/getting-started/theming-card.png");
+    background-position: right;
+    background-size: 80px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
