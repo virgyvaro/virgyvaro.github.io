@@ -46,7 +46,7 @@ hr{
 .card{
     background-color: #ffffff;
     /* Es para darle movimiento al elemento */
-    transition: 0.6s transform cubic-bezier(.17,.67,.83,.67);
+    transition: 0.8s transform cubic-bezier(0,.61,.99,.23);
     cursor: pointer;
     padding: 10px;
     box-shadow: 2px 6px 10px rgba(0, 0, 0, .08);
@@ -72,12 +72,22 @@ hr{
 }
 
 .card-3{
-    background-image: url("https://ionicframework.com/img/getting-started/theming-card.png");
+    background-image: url("https://ionicframework.com/img/getting-started/components-card.png");
     background-position: right;
     background-size: 80px;
     background-repeat: no-repeat;
 }
 
+.card-4{
+    background-image: url("https://ionicframework.com/img/getting-started/ionic-native-card.png");
+    background-position: right;
+    background-size: 80px;
+    background-repeat: no-repeat;
+}
+
+.list{
+    list-style-type: square;
+}
 
 
 
