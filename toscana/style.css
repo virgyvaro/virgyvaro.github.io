@@ -1,0 +1,44 @@
+/* Color Theme Swatches in Hex */
+.background-1 { background: #26070C; }
+.background-2 { background: #D9AB82; }
+.background-3 { background: #F2D5BB; }
+.background-4 { background: #BF7154; }
+.background-5 { background: #733E32; }
+
+/* Color Theme Swatches in Hex */
+.color-1 { color: #F29F05; }
+.color-2 { color: #F28705; }
+.color-3 { color: #BF702A; }
+.color-4 { color: #592A19; }
+.color-5 { color: #F2E4DF; }
+.color-6 { color: #F2D5BB; }
+
+body{
+    background-color: #F2D5BB;
+}
+
+/* Fuente de Nav */
+.letra1{
+    font-family: 'Courgette', cursive;
+}
+
+/* Fuente de header */
+.letra{
+    font-family: 'Lobster Two', cursive;
+}
+
+/* Imagenes de cartitas */
+.img{
+    width: 180px;
+    height: 180px;
+    cursor: pointer;
+    opacity: .7;
+    transition: all .7s;
+}
+
+.img:hover{
+    opacity: 1;
+    width: 200px;
+    height: 200px;
+    transition: all .7s;
+}
