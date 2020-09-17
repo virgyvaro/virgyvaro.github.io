@@ -1,0 +1,9 @@
+body{
+    background-color: lemonchiffon;
+}
+
+.linea{
+    border-top: 3px dotted white;
+    display: none;
+}
+

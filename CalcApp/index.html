@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Gastos 2</title>
+</head>
+
+<body>
+    <div class="container bg-dark mt-5 text-light rounded p-5">
+        <h1 class="display-4 text-center ">Calculadora de Gastos Mensuales</h1>
+        <hr class="linea">
+
+        <!-- Ayuda para visualizar el funcionamiento del show() = mostrar -->
+        <!-- <button class="btn btn-block btn-info mt-3 mb-3" onclick="mostrar()">Mostrar u ocultar</button> -->
+
+        <div class="container mt-5" id="ingreso">
+            <input type="number" class="form-control col-6 mx-auto" placeholder="Ingresa tu sueldo mensual" id="dinero">
+            <button class="btn btn-block btn-info mt-3 mb-3" onclick="mostrar()">Enviar</button>
+        </div>
+
+        <div class="card" id="calc">
+            <div class="card-header bg-secondary">
+                <!-- Datos moc = datos de prueba -->
+                <!-- <h2 id="cantidad">$3000</h2> -->
+
+                <!-- Datos Dinámicos -->
+                <h2 id="cantidad"></h2>
+            </div>
+
+            <div class="card-body">
+                <p id="total" class="text-dark"></p>
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Renta" id="renta">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Servicios" id="servicios">
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-danger mt-3" onclick="mostrar()">Regresar</button>
+                    <button type="button" class="btn btn-success mt-3" onclick="calcula()">Calcula si puedo comer unos
+                        tacos</button>
+                </form>
+
+            </div>
+
+            <div class="card-footer py-5">
+                <p class="text-muted float-right">Desarrollado por: Virgy VaRo</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+<!-- JS Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+<!-- CDN SweetAlert -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<!-- JS -->
+<script src="app.js"></script>
+
+</html>
