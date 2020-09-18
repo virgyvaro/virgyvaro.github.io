@@ -7,25 +7,44 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco&family=Lobster&display=swap" rel="stylesheet">
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <title>Gastos 2</title>
+    <title>Calculo de Gastos</title>
 </head>
 
 <body>
-    <div class="container bg-dark mt-5 text-light rounded p-5">
-        <h1 class="display-4 text-center ">Calculadora de Gastos Mensuales</h1>
+    <!-- Header -->
+    <div class="jumbotron jumbotron-fluid header">
+        <div class="container">
+            <div class="col-sm-6">
+                <h1 class="display-4 mt-5">Gastos Mensuales</h1>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container background-1 borde mt-3 p-5">
+        <h1 class="display-4 text-center ">Calculadora de Gastos</h1>
         <hr class="linea">
 
         <!-- Ayuda para visualizar el funcionamiento del show() = mostrar -->
         <!-- <button class="btn btn-block btn-info mt-3 mb-3" onclick="mostrar()">Mostrar u ocultar</button> -->
 
         <div class="container mt-5" id="ingreso">
-            <input type="number" class="form-control col-6 mx-auto" placeholder="Ingresa tu sueldo mensual" id="dinero">
-            <button class="btn btn-block btn-info mt-3 mb-3" onclick="mostrar()">Enviar</button>
+            <input type="number" class="form-control col-6 mx-auto bordemini" placeholder="Ingresa tu sueldo mensual"
+                id="dinero">
+            <button class="btn mt-5 background-5 color-6 text-center p-3 boton float-right"
+                onclick="mostrar()">Enviar</button>
+            <br>
+            <br>
+            <br>
+            <br>
         </div>
 
         <div class="card" id="calc">
-            <div class="card-header bg-secondary">
+            <div class="card-header background-2">
                 <!-- Datos moc = datos de prueba -->
                 <!-- <h2 id="cantidad">$3000</h2> -->
 
@@ -38,20 +57,25 @@
                 <form>
                     <div class="row">
                         <div class="col">
-                            <input type="text" class="form-control" placeholder="Renta" id="renta">
+                            <input type="text" class="form-control bordemini" placeholder="Renta" id="renta">
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control" placeholder="Servicios" id="servicios">
+                            <input type="text" class="form-control bordemini" placeholder="Servicios" id="servicios">
                         </div>
                     </div>
-                    <button type="button" class="btn btn-danger mt-3" onclick="mostrar()">Regresar</button>
-                    <button type="button" class="btn btn-success mt-3" onclick="calcula()">Calcula si puedo comer unos
-                        tacos</button>
+                    <div class="row">
+                        <button type="button" class="btn mt-3 mx-auto background-5 color-6 text-center boton"
+                            onclick="calcula()">Calcula si puedo comer unos
+                            tacos</button>
+                    </div>
+                    <button type="button" class="btn btn-danger mt-3 float-right" onclick="mostrar()">Regresar</button>
+                    <br>
+                    <br>
                 </form>
-
             </div>
+            <br>
 
-            <div class="card-footer py-5">
+            <div class="card-footer py-4">
                 <p class="text-muted float-right">Desarrollado por: Virgy VaRo</p>
             </div>
         </div>
@@ -59,7 +83,9 @@
 
     </div>
 
-
+    <br>
+    <br>
+    <br>
 
 
 </body>

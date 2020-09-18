@@ -1,9 +1,62 @@
+/* Color Theme Swatches in Hex */
+.color-1 { color: #9900E5; }
+.color-2 { color: #8233AA; }
+.color-3 { color: #660099; }
+.color-4 { color: #B045E5; }
+.color-5 { color: #440066; }
+.color-6 { color: magenta; }
+
+/* Color Theme Swatches in Hex */
+.background-1 { background: #BFBFBF; }
+.background-2 { background: #8C8C8C; }
+.background-3 { background: #cfcbcb; }
+.background-4 { background: #404040; }
+.background-5 { background: #440066; }
+
 body{
-    background-color: lemonchiffon;
+    background-color: #8C8C8C;
 }
 
+h1{
+    font-family: 'Lobster', cursive;
+    color: #B045E5;
+    text-shadow: 2px 2px 3px magenta;
+}
+
+.header{
+    background-image: url("https://cdn.pixabay.com/photo/2018/05/15/08/44/save-3402476_960_720.jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    height: 350px;
+}
+
+.borde{
+    border: 5px solid #9900E5;
+    border-radius: 20px;
+}
+
+.bordemini{
+    border: 2px solid Aqua;
+}
+
+/* Esta clase de linea realmente no ubico si se está ocupando */
 .linea{
     border-top: 3px dotted white;
     display: none;
 }
+
+.boton{
+    color:magenta;
+}
+
+.boton:hover{
+    color: aqua;
+}
+
+.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{
+    border: 5px solid magenta;
+}
+
+
 

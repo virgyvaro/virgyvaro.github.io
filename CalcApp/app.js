@@ -70,20 +70,20 @@ function calcula() {
     if (total >= 80) {
         // console.log("Si puedes ir por unos de pastor");
         Swal.fire({
-            position: 'top-end',
+            // position: 'top-end',
             icon: 'success',
-            title: "Si puedes ir por unos de pastor",
+            title: "Aún te alcanza para unos tacos de pastor",
             showConfirmButton: false,
-            time: 1500
+            time: 1000
         });
     } else {
         // console.log("Te toca comer en casa"); 
         Swal.fire({
-            position: 'top-end',
+            // position: 'top-end',
             icon: 'error',
             title: "Te toca comer en casa",
             showConfirmButton: false,
-            time: 1500
+            time: 1000
         }); 
     }  
 }
