@@ -1,0 +1,28 @@
+body{
+    background-color: LightCyan;
+}
+
+.alert{
+    list-style: none;
+}
+
+.card{
+    height: 32vh;
+}
+
+.card-postit{
+    margin: 30px;
+  
+}
+
+.row{
+    flex-wrap: wrap;
+}
+
+.caja-cartas{
+    flex-wrap: wrap;
+}
+
+hr{
+    height: 10px;
+}
