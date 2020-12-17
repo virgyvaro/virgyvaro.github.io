@@ -1,0 +1,151 @@
+body{
+    background-color: LightCyan;
+}
+
+h1{
+    font-family: 'Merienda', cursive;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    overflow: hidden;
+    border: none;
+    background-color: LightCyan;
+}
+
+.carta{
+    background-color: paleturquoise;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.tapa{
+    cursor: pointer;
+    background-color: teal;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    /* transition: all 1.2s; */
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715) 1.3s;
+    border-radius: 20px;
+}
+
+/* Animación por medio del hover digamos que es la clasica */
+.tapa:hover{
+    background-color: transparent;
+    /* transition: all 1.2s; */
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715) 1.3s;
+}
+
+
+/* Tipo de Animación que se desliza hacia arriba */
+.tapa1{
+    cursor: move;
+    position: absolute;
+    background-color: teal;
+    height: 300px;
+    width: 300px;
+    transition: all 1.2s;
+}
+
+/* pseudo-clase clases de estado (interación con el user)
+En el active debe ser con un clic sostenido para activarlo o descencadenarlo.
+*/
+.tapa1:active{
+    margin-top: -600px;
+    background-color: transparent;
+}
+
+
+/* Animación que que se desplaza girando en grados y rotando (izq/der) */
+.tapa2{
+    background-color: teal;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    cursor: progress;
+    transition: all 1.2s;
+    border-radius: 20px;
+}
+
+.tapa2:hover{
+    background-color: transparent;
+    transform: rotate(-360deg);
+    transition: all 1.2s;
+    width: 100px;
+    height: 100px;
+}
+
+h4{
+    font-family: 'Langar', cursive;
+}
+
+.letra{
+    font-family: 'Langar', cursive;
+}
+
+p{
+    font-family: 'Dosis', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+li::before{
+    content: "✿";
+}
+
+.display{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border: 2px solid darkblue;
+}
+
+.framework{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border: 2px solid darkblue;
+}
+
+.dom{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border: 2px solid darkblue;
+}
+
+.propaline{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 2px solid darkblue;
+}
+
+.overflow{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border: 2px solid darkblue;
+}
+
+.metodos{
+    width: 200px;
+    height: 170px;
+    border-radius: 15px;
+    border: 2px solid darkblue;
+}
+
+
+
+
+
+
