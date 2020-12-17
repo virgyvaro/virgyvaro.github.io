@@ -1,0 +1,120 @@
+/* Paleta de Colores */
+/* Color Theme Swatches in Hex */
+.color-1 { color: #F24B88; }
+.color-2 { color: #F2E313; }
+.color-3 { color: #F2CE1B; }
+.color-4 { color: #F2BB16; }
+.color-5 { color: #8c0ad8; }
+/* Color Theme Swatches in Hex */
+.color-6 { color: #F2A0CD; }
+.color-7 { color: #F227AB; }
+.color-8 { color: #F2D5E8; }
+.color-9 { color: #F2BC1B; }
+.color-10 { color: #F2A516; }
+
+/* Color Theme Swatches in Hex */
+.background-1 { background-color: #FFE4E1; }
+.background-2 { background-color: #AFEEEE; }
+.background-3 { background-color: #D8BFD8; }
+.background-4 { background-color: #F5DEB3; }
+.background-5 { background-color: #F2F2F2; }
+
+
+/* Fuentes */
+/* 
+font-family: 'Langar', cursive;
+
+*/
+
+
+/* header */
+.cont{
+    width: 100vw;
+    height: 100vh;
+    /* border: solid 2px purple; */
+}
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    /* border: solid 2px purple; */
+}
+ 
+/* Herencia sintaxica */
+/* .contenedor .hero  */
+/* 
+Herencia implicita 
+Es cuando se toma las medidas del padre(contenedor) para que la imagen que tiene hero(hijo) sea vea en las mismas medidas.
+*/
+
+.hero{
+    /* Herencia implicita */
+    width: 100%;
+    height: 100%;
+    background-image: url("https://image.freepik.com/vector-gratis/juego-cono-helado-cuatro-obleas-helados-colores-realistas-sabor-diferente-aderezos-bayas_1284-17849.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .9;
+}
+
+.arrow{
+    margin-top: 50vh;
+}
+
+.cursiva{
+    font-family: 'Langar', cursive;
+}
+
+h1{
+    text-shadow: 2px 3px 3px aqua;
+}
+
+.sombra{
+    text-shadow: 2px 3px 3px #F2CE1B;
+}
+
+/* Section 3 */
+
+.sabores{
+    width: 350px;
+    height: 200px;
+}
+
+.subti{
+    font-size: x-large;
+    font-family: 'Architects Daughter', cursive;
+    color: red;
+    
+}
+
+/* Esto se hace para que no aparezca la línea o el subrayado de la palabra cuando es una referencia. */
+a{
+    text-decoration: none;
+}
+
+.mensaje{
+    font-size: 70px;
+    color: blue;
+    text-shadow: 2px 2px 4px magenta;
+}
+
+.imagen{
+    width: 100%;
+    height: 103%;
+    background-image: url("https://image.freepik.com/foto-gratis/helado-bayas-frescas_144627-32253.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;   
+}
+
+
+
+
