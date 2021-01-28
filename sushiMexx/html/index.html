@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- chrome=1 -- es para que se pueda visualizar en ese navegador -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1"/>
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <!-- Animación -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- fuentes -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Combo&family=Fruktur&family=Miltonian+Tattoo&family=swap"
+    rel="stylesheet" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>SushiMexx</title>
+</head>
+
+<body>
+  <!-- alert -->
+  <div class="alert background-a alert-dismissible fade show text-center text-white mb-0" role="alert">
+    <strong>¡Atención!</strong>
+    <br />
+    Por tiempo de pandemia y debido a que nuestras sucursales han estado
+    cerradas, se te ofrece un vale para apoyar a nuestros empleados. Ve
+    para más detalles.
+    <br />
+    ¡No dudes en comprarlo!
+    <button type="button" class="close" data-bs-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+  <!-- navbar -->
+  <nav class="navbar mt-0 background-1 sticky-top">
+    <div class="container-fluid">
+      <img
+        src="https://www.flaticon.es/svg/vstatic/svg/2794/2794463.svg?token=exp=1611681938~hmac=22c03cfb6e07866ed09d766a7578465b"
+        alt="logo" class="logo" />
+      <h1 class="animate__animated animate__backInDown sombra">SushiMexx</h1>
+      <div class="ml-auto">
+        <a href="https://www.facebook.com/">
+          <img
+            src="https://www.flaticon.es/svg/vstatic/svg/174/174848.svg?token=exp=1611682000~hmac=31cc89bca19bde851ed03e9185d39d05"
+            alt="face" class="redes" />
+        </a>
+
+        <a href="https://www.instagram.com/">
+          <img
+            src="https://www.flaticon.es/svg/vstatic/svg/1409/1409946.svg?token=exp=1611682077~hmac=7e32f70b5089e08d6c4ba5fada05f8c3"
+            alt="insta" class="redes" />
+        </a>
+
+        <a href="https://twitter.com/?lang=es">
+          <img
+            src="https://www.flaticon.es/svg/vstatic/svg/1409/1409937.svg?token=exp=1611682173~hmac=868a523f25d2784dd76a956929d8027a"
+            alt="twitter" class="redes mr-5" />
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero/Header -->
+  <div class="jumbotron fondo">
+    <div class="row text-center">
+      <div class="col-sm-12 col-md-6 align-self-center">
+        <h1 class="display-4"></h1>
+        <h2 class="text-principal animate__animated animate__heartBeat animate__infinite">¡Deleítate!</h2>
+        <p class="lead"><strong>Gastronomía mexicana.</strong></p>
+        <hr class="my-4" />
+        <p>
+          No puedes dejar pasar la oportunidad para probar nuestros nuevos productos
+          estrellas con los ingredientes más exquisitos de la gastronomía
+          mexicana.
+        </p>
+      </div>
+
+      <div class="col-sm-12 col-md-6 align-self-center">
+        <img
+          src="https://www.cursosgastronomia.com.mx/wp-content/uploads/2014/04/principales-ingredientes-en-gastronomia-mexicana.jpg"
+          alt="ingredientes" class="img-fluid ingre" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Carousel -->
+  <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://image.freepik.com/foto-gratis/sushi-atun-salmon-verduras-jengibre-wasabi-vista-lateral_141793-15530.jpg"
+          class="d-block mx-auto rounded-pill mb-5 imgcarrusel mt-3" alt="sushi" />
+      </div>
+      <div class="carousel-item">
+        <img src="https://realnoticias.com.mx/wp-content/uploads/2020/02/huit-678x381.jpg"
+          class="d-block mx-auto rounded mb-5 imgcarrusel mt-3" alt="tradicionales" />
+      </div>
+      <div class="carousel-item">
+        <img src="https://img.chilango.com/2018/05/restaurantes-para-comer-insectos-en-la-cdmx.jpg"
+          class="d-block mx-auto rounded-pill mb-5 imgcarrusel mt-3" alt="gusanos" />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://mx.hola.com/imagenes/cocina/recetas/20191017151958/ramen-pollo-huevo-cebollino-soja/0-734-730/ramen-adobe-t.jpg"
+          class="d-block mx-auto rounded mb-5 imgcarrusel mt-3" alt="ramen" />
+      </div>
+    </div>
+    <a class="carousel-control-prev ml-5" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next mr-5" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- Cards -->
+  <!-- 4 Productos -->
+  <div class="container">
+    <h1 class="sombra text-center mb-5">Nuestros Productos</h1>
+    <!-- Paquete idolos mexicanos -->
+    <!-- col-4 = cuanto ocupa nuestro elemento -->
+    <!-- offset-4 = cuanto espacio quiero que deje entre los elementos (de izq a derecha) -->
+    <div class="row">
+      <div class="card shadow background-4 py-3 rounded col-6 mt-3 wow animate__animated animate__backInLeft">
+        <img src="https://cdn.pixabay.com/photo/2016/08/25/03/05/japans-1618638_960_720.jpg"
+          class="card-img-button rounded" alt="paquete">
+        <div class="card-body">
+          <h3>Paquete ídolos mexicanos</h3>
+          <ul class="vinetas text-justify">
+            <li>
+              Un rollo:
+              <ul class="subvinetas">
+                <li>
+                  Por dentro: Huitlacoche con granos de elote y queso manchego.
+                </li>
+                <li>
+                  Por fuera: Cubierto con láminas de nopal y espolvoreado con pinole.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Bebida:
+              <ul class="subvinetas">
+                <li>
+                  Sake presentación de 200ml.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Postre:
+              <ul class="subvinetas">
+                <li>
+                  Gelatina de café.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <img src="../img/chef.png" alt="chef sentado" class="col-6">
+    </div>
+    <!-- Rollo especial -->
+    <div class="row">
+      <img src="../img/chef-sushi.jpg" alt="chef sushi" class="col-6">
+      <div class="card mt-5 shadow py-3 background-10 col-6 wow animate__animated animate__backInRight">
+        <img src="https://cdn.pixabay.com/photo/2017/07/26/11/48/sushi-2541472_960_720.jpg"
+          class="card-img-top rounded-pill" alt="rollo">
+        <div class="card-body">
+          <h3>Rollo especial María Félix</h3>
+          <p class="card-text">
+          <ul class="vinetas text-justify">
+            <li>
+              <strong>Por dentro:</strong> Gusanos de maguey, camaron empanizado, láminas de nopal y trocitos de chile
+              toreado.
+            </li>
+            <li>
+              <strong>Por fuera:</strong> Aguacate, una deliciosa salsa de anguila y ajonjolí.
+            </li>
+          </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Bebida el rojizo -->
+    <div class="row">
+      <div class="card shadow mt-5 col-6 background-4 py-3 wow animate__animated animate__backInLeft">
+        <img src="https://cdn.kiwilimon.com/recetaimagen/2690/th5-640x426-19949.jpg" class="card-img-top rounded"
+          alt="jugo">
+        <div class="card-body">
+          <h3>Bebida el rojizo</h3>
+          <p class="card-text text-justify">
+            Una bebida refrescante de granada con arándano y un toque de mezcal, presentación de 250ml.
+          </p>
+        </div>
+      </div>
+      <img src="../img/chef-bebiendo.png" alt="chef bebiendo" class="col-6">
+    </div>
+    <!-- Vale -->
+    <div class="row mb-5">
+      <img src="../img/chef-servir.png" alt="chef-servir" class="col-6">
+      <div class="card shadow py-3 mt-5 background-10 col-6 wow animate__animated animate__backInRight">
+        <img src="../img/vale.jpeg" class="card-img-top rounded-pill" alt="vale">
+        <div class="card-body">
+          <h3>Sushi vale</h3>
+          <p class="card-text text-justify">
+            Las 3 sucursales de Sushi-Mexx te brinda un vale con un costo de $50 donde tendrás 3 envíos gratis al mes en
+            un radio de 500 metros alrededor de las sucursales, el envío es por medio de muchachos repartidores en bici
+            para seguir apoyando en sus estudios.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sucursales -->
+  <div class="container text-center mt-5">
+    <h1 class="sombra text-center mt-5 mb-5">Sucursales</h1>
+    <div class="row mt-2">
+      <div class="col-sm-12 col-md-6">
+        <svg width="5em" height="5em" viewBox="0 0 16 16" class="bi bi-geo-alt mapa" fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+        </svg>
+        <div class="container text-center">
+          <h3 class="h3sucursal">Norte</h3>
+          <h4>Jade 57, Col. Estrella, Gustavo A. Madero, 07810 Ciudad de México, CDMX</h4>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <!-- Mapa 1 Norte -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60187.02155857906!2d-99.16082242071627!3d19.468977656575372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x21b8a3ca2ad2e719!2sSushi%20Star!5e0!3m2!1ses-419!2smx!4v1611727463407!5m2!1ses-419!2smx"
+          width="250" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0">
+        </iframe>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-sm-12 col-md-6">
+        <svg width="5em" height="5em" viewBox="0 0 16 16" class="bi bi-geo-alt mapa" fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+        </svg>
+        <div class="container text-center">
+          <h3 class="h3sucursal">Centro</h3>
+          <h4>Av Juárez 64, Col. Centro, Centro Cuauhtémoc, 06000 Ciudad de México, CDMX</h4>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <!-- Mapa 2 Centro -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25310.610525241947!2d-99.1452466583641!3d19.436381751084262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x447aec1fa9155966!2sSushi%20MX!5e0!3m2!1ses-419!2smx!4v1611727855812!5m2!1ses-419!2smx"
+          width="250" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0">
+        </iframe>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-sm-12 col-md-6">
+        <svg width="5em" height="5em" viewBox="0 0 16 16" class="bi bi-geo-alt mapa" fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+        </svg>
+        <div class="container text-center">
+          <h3 class="h3sucursal">Sur</h3>
+          <h4>Av. Coyoacán 2000-Local 1509, Xoco, Benito Juárez, 03330 Ciudad de México, CDMX</h4>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 mb-5">
+        <!-- Mapa 3 Sur -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30116.934520324543!2d-99.1761779750062!3d19.34242701799284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1bcd6ab137038ec6!2sSushitai!5e0!3m2!1ses-419!2smx!4v1611728323165!5m2!1ses-419!2smx"
+          width="250" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0">
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer py-5 fondopie">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 offset-6">
+          <div class="row">
+            <h3 class="color-5 mb-3">Servicio a Domicilio</h3>
+            <i class="fas fa-biking ml-3 color-9" style="font-size: 35px;">
+            </i>
+          </div>
+          <div class="ml-5">
+            <span>
+              <i class="fab fa-whatsapp-square mx-auto color-14" style="font-size: 23px;">
+                5521806671
+              </i>
+            </span>
+          </div>
+          <div class="py-5">
+            <span>
+              <i class="fas fa-home mb-2 ml-5 text-center color-14" style="font-size: 20px;">
+                <h4>Inicio</h4>
+              </i>
+            </span>
+            <span>
+              <i class="fas fa-address-card mb-2 ml-5 text-center color-14" style="font-size: 20px;">
+                <h4>Nosotros</h4>
+              </i>
+            </span>
+            <span>
+              <i class="fas fa-envelope ml-5 text-center color-14" style="font-size: 20px;">
+                <h4>Quejas y Sugerencias</h4>
+              </i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Copyright -->
+  <div class="container-fluid text-center background-a text-white">
+    © 2021 Copyright:
+    <span>
+      VAROVI
+    </span>
+  </div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+<!-- JS Externo -->
+<script src="../js/app.js"></script>
+
+</html>
