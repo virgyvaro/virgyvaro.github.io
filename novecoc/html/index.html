@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <!-- Normalize -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/minty/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!-- CDN Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script:wght@600&family=Righteous&display=swap"
+        rel="stylesheet">
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Novecoc</title>
+</head>
+
+<body>
+    <!-- El primer div con la clase de col-12 lo debo poner para que mi vista no se desface a lo horizontal de la pantalla  -->
+
+    <!-- navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <i class="fas fa-cocktail fa-2x icon"></i>
+            <a class="navbar-brand ml-2">Novecoc</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#productos">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#envios">Envíos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="jumbotron bg-light" id="inicio">
+        <div class="row text-center">
+            <div class="col-sm-12 col-md-6 align-self-center">
+                <h1 class="display-4 text-primary animate__animated animate__pulse animate__infinite">NOVECOC</h1>
+                <h2 class="text-principal">Novedades para tu cocina</h2>
+                <p class="lead">
+                    Encontrarás una gran variedad de utensilios a un buen precio y con la mejor calidad, que te
+                    encantarán.
+                </p>
+                <hr class="my-4 py-1" />
+                <p>
+                    Contamos con grandes descuentos y no dudes en contactarnos si lo que buscas no lo encuentras.
+                </p>
+                <a class="btn btn-primary mt-3 borde" href="#" role="button" onclick="mas()">Saber más.</a>
+            </div>
+
+            <div class="col-sm-12 col-md-6 align-self-center mt-4">
+                <img src="https://cdn.pixabay.com/photo/2020/06/09/18/13/kitchen-5279535_960_720.png" alt="panaderia"
+                    class="img-fluid rounded" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <!-- Productos -->
+    <div class="container mt-5" id="productos">
+        <h1 class="text-primary text-center display-4">PRODUCTOS</h1>
+        <!-- **************FILA 1 DE CARTITAS ************ -->
+        <div class="row mt-3">
+            <!-- 1 Cubiertos -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="https://mundococina.es/wp-content/uploads/2015/08/utensilios-de-cocina-listado-de-nombre-menaje-de-cocina-aparatos-cosas-herramientas.jpg"
+                    class="rounded img-fluid shadow-lg img1 mt-4 wow animate__animated animate__backInLeft" alt="cubiertos">
+                <h2>Cubiertos e implementos</h2>
+                <p class="text-justify">
+                    Contamos con una gran variedad de cubiertos para toda ocasión y también todos los utensilios que
+                    ocupas día a día de cualquier material.
+                </p>
+                <p>
+                    <button type="button" class="btn btn-secondary float-right mt-2" data-toggle="modal"
+                        data-target="#cubiertos">
+                        Ver más
+                    </button>
+                </p>
+            </div>
+            <!-- 2 Baterias -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_961168-MLM31296439150_072019-O.webp"
+                    class="rounded img-fluid shadow-lg img2 mt-4 wow animate__animated animate__slideInUp" alt="baterias">
+                <h2>Baterias</h2>
+                <p class="text-justify">
+                    No te puedes perder la oportunidad de tener contigo una bateria de acero inoxidable con sus tapas
+                    térmicas que harán una delicia tus comidas.
+                </p>
+                <p>
+                    <button type="button" class="btn btn-secondary float-right mt-2" data-toggle="modal"
+                        data-target="#baterias">
+                        Ver más
+                    </button>
+                </p>
+            </div>
+            <!-- 3 Cocteleria -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/71WQ7dgOu0L._AC_SL1500_.jpg"
+                    class="rounded img-fluid shadow-lg img1 mt-4 wow animate__animated animate__backInRight" alt="cocteleria">
+                <h2>Cocteleria</h2>
+                <p class="text-justify">
+                    Adquiere un kit de cocteleria para disfrutar de una bebida deliciosa en compañía de tus seres
+                    queridos.
+                </p>
+                <p>
+                    <button type="button" class="btn btn-secondary float-right" data-toggle="modal"
+                        data-target="#cocteleria">
+                        Ver más
+                    </button>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- **************FILA 2 DE CARTITAS ************ -->
+    <div class="container">
+        <div class="row mt-2 mb-4">
+            <!-- 4 Electrodomesticos-->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="https://i.blogs.es/9d60a3/collage-soltero/1366_2000.jpg"
+                    class="rounded img-fluid shadow-lg img1 mt-4 wow animate__animated animate__slideInLeft" alt="electrodomesticos">
+                <h2>Electrodomesticos</h2>
+                <p class="text-justify">
+                    No puedes perder la oportunidad de tener los electrónicos más modernos y funcionales para que tu día
+                    a día sea más ligero. Tenemos muchos modelos, materiales y colores.
+                </p>
+                <p>
+                    <button type="button" class="btn btn-secondary float-right mt-2 mb-2" data-toggle="modal"
+                        data-target="#electrodomesticos">
+                        Ver más
+                    </button>
+                </p>
+            </div>
+            <!-- 5 Cristaleria -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="https://image.freepik.com/foto-gratis/diferentes-vasos-transparentes-bebidas_231208-2927.jpg"
+                    class="rounded img-fluid shadow-lg img1 mt-4 wow animate__animated animate__slideInDown" alt="cristaleria">
+                <h2>Cristaleria</h2>
+                <p class="text-justify">
+                    Nuestra hermosa cristaleria hará lucir espectacular tu mesa para una ocasión especial o simplemente
+                    para el diaro. Contamos con diseños, calibres y calidad.
+                </p>
+                <p>
+                    <button type="button" class="btn btn-secondary float-right mt-2 mb-2" data-toggle="modal"
+                        data-target="#cristal">
+                        Ver más
+                    </button>
+                </p>
+            </div>
+            <!-- 6 Reposteria -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/411lxtqxbCL._AC_.jpg"
+                    class="rounded img-fluid shadow-lg img1 mt-4 wow animate__animated animate__slideInRight" alt="reposteria">
+                <h2>Resposteria</h2>
+                <p class="text-justify">
+                    Degusta de esos deliciosos postres con la ayuda de todos los implementos que te ofrecemos para que
+                    le des a tu familia un pedacito de sabor.
+                </p>
+                <p>
+                    <button type="button" class="btn btn-secondary float-right mt-4 mb-3" data-toggle="modal"
+                        data-target="#reposteria">
+                        Ver más
+                    </button>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Envios -->
+    <!-- entregas a domicilio -->
+    <div class="container mt-5" id="envios">
+        <div class="jumbotron jumbotron-fluid bg-primary text-warning">
+            <div class="container">
+                <h3 class="display-4 text-center">Envios</h3>
+                <hr class="borde">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 align-self-center text-center mt-4">
+                        <h3 class="text-light">CDMX</h3>
+                        <i class="fas fa-car-side fa-7x mt-3"></i>
+                        <p class="text-light mt-2">Gratis*</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 align-self-center text-center mt-4">
+                        <h3 class="text-light">Interior de la República</h3>
+                        <i class="fas fa-box fa-7x mt-3"></i>
+                        <p class="text-light mt-3">Sujeto a paquetería.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer py-3 bg-secondary text-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-3 mt-2">
+                    <i class="fas fa-cocktail fa-2x icon"></i>
+                    <span class="text-dark letra">NOVECOC</span>
+                </div>
+                <div class="col-sm-12 col-md-3 mt-2">
+                    <i class="fas fa-map-pin fa-2x icon"></i>
+                    <span class="letra text-dark">Avenida Tlalpan No.346, Portales III Sección</span>
+                </div>
+                <div class="col-sm-12 col-md-3 mt-2">
+                    <i class="fab fa-whatsapp-square fa-2x icon"></i>
+                    <span class="ml-2 letra text-dark">55 - 21 - 80 - 66 - 71</span>
+                </div>
+                <div class="col-sm-12 col-md-3 mt-2">
+                    <i class="fab fa-facebook-square fa-2x icon"></i>
+                    <span>
+                        <a href="https://es-la.facebook.com/" class="letra text-dark" target="_blank">Facebook</a>
+                    </span>
+                </div>
+                <div class="container-fluid col-sm-12 col-md-6 mt-4">
+                    <p class="text-dark">
+                        VAROVI© Copyright 2021 Todos los Derechos Reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+<!-- Js Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+<!-- JS Bootswatch -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script> -->
+<!-- SweetAlert -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<!-- JS Externo -->
+<script src="../js/app.js"></script>
+
+</html>

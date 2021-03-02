@@ -1,0 +1,54 @@
+/* 
+Fuentes
+font-family: 'Akaya Telivigala', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Righteous', cursive;
+*/
+
+body{
+    background-color: #ccebeb;
+}
+
+/* Hero */
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px 3px #00FFFF;
+    font-weight: bolder;
+}
+h2{
+    font-family: 'Akaya Telivigala', cursive;
+    text-shadow: 2px 2px 3px #FFA07A;
+}
+hr{
+    background-color: #008B8B;
+}
+.borde{
+    border: 3px solid #008B8B;
+}
+
+
+/* Main */
+.img1{
+    width: 350px;
+    height: 300px;
+}
+.img2{
+    width: 700px;
+    height: 300px;
+}
+
+/* Envios */
+h3{
+    font-family: 'Righteous', cursive;
+    color: #FFA07A;
+    text-shadow: 5px 5px 5px #055858;
+}
+
+
+/* Footer */
+.letra{
+    font-family: 'Righteous', cursive;
+}
+.icon{
+    color: #008B8B;
+}
