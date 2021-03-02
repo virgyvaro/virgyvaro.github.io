@@ -1,0 +1,13 @@
+body{
+    background-color: lightgray;
+}
+
+h1{
+    font-family: fantasy;
+    color: darkslategray;
+    font-style: oblique;
+}
+
+main{
+    height: 100vh;
+}
