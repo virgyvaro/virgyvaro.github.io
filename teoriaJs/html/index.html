@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <!-- Normalize -->
+  <script src="../css/normalize.css"></script>
+  <!-- Bootswatch -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/solar/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <!-- Animate -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Josefin+Sans:ital,wght@1,200&display=swap"
+    rel="stylesheet">
+  <!-- CSS Externo -->
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Teoria</title>
+</head>
+
+<body>
+  <!-- hero -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4 text-white animate__animated animate__bounce animate__infinite">Teoría</h1>
+      <hr>
+      <h4 class="ml-4 mt-4 text-white">
+        <strong>Los temas a comprender son los siguientes:</strong>
+      </h4>
+      <p class="text-white ml-5">
+        Tipos de Datos, Variables y Consola del navegador.
+      </p>
+    </div>
+  </div>
+
+  <!-- Main -->
+  <h4 class="text-center text-primary mt-5 col-12">
+    <b>
+      Antes de abrir cada pregunta, trata de contestarla con tus propias palabras con el
+      conocimiento que tengas.
+      <br>
+      ¿Estás listo...?
+    </b>
+  </h4>
+  <!-- Acordion -->
+  <div class="accordion col-sm-12 col-md-6 fondo mx-auto rounded mt-5 py-3" id="accordionExample">
+    <!-- Pregunta 1 -->
+    <div class="accordion-item mt-3 wow animate__animated animate__backInLeft animate__delay-2s">
+      <h3 class="accordion-header" id="headingOne">
+        <button class="accordion-button bg-success text-dark btn btn-block btn-md borde" type="button"
+          data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          <b>¿Qué es un dato?</b>
+        </button>
+      </h3>
+      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body text-primary text-center">
+          <strong>
+            Es un conjunto de símbolos (de 1 a N), cuyo significado es la mínima unidad de información.
+          </strong>
+        </div>
+      </div>
+    </div>
+    <!-- Pregunta 2 -->
+    <div class="accordion-item mt-3 wow animate__animated animate__backInRight animate__delay-3s">
+      <h3 class="accordion-header" id="headingTwo">
+        <button class="accordion-button bg-success text-dark btn btn-block btn-md borde" type="button"
+          data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <b>¿Qué son los datos primitivos?</b>
+        </button>
+      </h3>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body text-primary text-center">
+          <strong>Son números y letras.</strong>
+        </div>
+      </div>
+    </div>
+    <!-- Pregunta 3 -->
+    <div class="accordion-item mt-3 wow animate__animated animate__backInLeft animate__delay-2s">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed bg-success text-dark btn btn-block btn-md borde" type="button"
+          data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <b>¿Qué son los datos complejos?</b>
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body text-primary text-center">
+          <strong>
+            Es un conjunto de datos primitivos.
+          </strong>
+        </div>
+      </div>
+    </div>
+    <!-- Pregunta 4 -->
+    <div class="accordion-item mt-3 wow animate__animated animate__backInRight animate__delay-3s">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed bg-success text-dark btn btn-block btn-md borde" type="button"
+          data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          <b>¿Qué es un objeto?</b>
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body text-primary text-center">
+          <strong>
+            Es un tipo de dato complejo o bien es un conjunto de propiedades.
+          </strong>
+        </div>
+      </div>
+    </div>
+    <!-- Pregunta 5 -->
+    <div class="accordion-item mt-3 wow animate__animated animate__backInLeft animate__delay-2s">
+      <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed bg-success text-dark btn btn-block btn-md borde" type="button"
+          data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          <b>¿Qué es una propiedad?</b>
+        </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body text-primary text-center">
+          <strong>
+            Es una asociación entre un nombre y un valor.
+          </strong>
+        </div>
+      </div>
+    </div>
+    <!-- Pregunta 6 -->
+    <div class="accordion-item mt-3 wow animate__animated animate__backInRight animate__delay-3s">
+      <h2 class="accordion-header" id="headingSix">
+        <button class="accordion-button collapsed bg-success text-dark btn btn-block btn-md borde" type="button"
+          data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          <b>¿Qué es una variable?</b>
+        </button>
+      </h2>
+      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body text-primary text-center">
+          <strong>
+            Es un espacio lógico que sirve para almacenar algún valor.
+          </strong>
+        </div>
+      </div>
+    </div>
+    <!-- Pregunta 7 -->
+    <div class="accordion-item mt-3 wow animate__animated animate__backInLeft animate__delay-2s">
+      <h2 class="accordion-header" id="headingSeven">
+        <button class="accordion-button collapsed bg-success text-dark btn btn-block btn-md borde" type="button"
+          data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          <b>¿Qué significa "var"?</b>
+        </button>
+      </h2>
+      <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body text-primary text-center">
+          <strong>
+            Es una palabra reservada.
+          </strong>
+        </div>
+      </div>
+    </div>
+    <!-- Pregunta 8 -->
+    <div class="accordion-item mb-3 mt-3 wow animate__animated animate__backInRight animate__delay-3s">
+      <h2 class="accordion-header" id="headingEight">
+        <button class="accordion-button collapsed bg-success text-dark btn btn-block btn-md borde" type="button"
+          data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+          <b>¿Qué es la consola del navegador? </b>
+        </button>
+      </h2>
+      <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body text-primary text-center">
+          <strong>
+            Es una herramienta que nos ayuda a depurar nuestras páginas. Nos ayuda con Javascript, con CSS, con HTML y,
+            en general, con todos los elementos de la parte cliente.
+          </strong>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ejercicio -->
+  <div class="container mt-5 py-3">
+    <h4 class="text-primary mt-5">
+      <b>
+        Ejercicio:
+      </b>
+    </h4>
+    <p class="text-justify ml-4 text-white">
+      Por favor lee con cuidado cada enunciado y selecciona "Cierto o Falso", según sea el caso.
+    </p>
+    <!-- Preguntas y Respuestas -->
+    <div class="row">
+      <!-- Uno -->
+      <div class="col-sm-12 col-md-6 mt-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-info"><b>Pregunta 1</b></h5>
+            <p class="card-text text-white">
+              ¿La palabra "var" es una función?
+            </p>
+            <div class="row justify-content-center">
+              <button class="btn btn-success btn-md col-4" onclick="unoC()">Cierto</button>
+              <button class="btn btn-danger btn-md ml-3 col-4" onclick="unoF()">Falso</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Dos -->
+      <div class="col-sm-12 col-md-6 mt-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-info"><b>Pregunta 2</b></h5>
+            <p class="card-text text-white">
+              La letra "D", ¿Es un dato?
+            </p>
+            <div class="row justify-content-center">
+              <button class="btn btn-success btn-md col-4" onclick="dosC()">Cierto</button>
+              <button class="btn btn-danger btn-md ml-3 col-4" onclick="dosF()">Falso</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Tres -->
+      <div class="col-sm-12 col-md-6 mt-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-info"><b>Pregunta 3</b></h5>
+            <p class="card-text text-white">
+              ¿Un objeto es igual a un conjunto de datos complejos?
+            </p>
+            <div class="row justify-content-center">
+              <button class="btn btn-success btn-md col-4" onclick="tresC()">Cierto</button>
+              <button class="btn btn-danger btn-md ml-3 col-4" onclick="tresF()">Falso</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Cuatro -->
+      <div class="col-sm-12 col-md-6 mt-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-info"><b>Pregunta 4</b></h5>
+            <p class="card-text text-white">
+              El comando console.log
+              <br>
+              ¿Es para imprimir en la consola del navegador?
+            </p>
+            <div class="row justify-content-center">
+              <button class="btn btn-success btn-md col-4" onclick="cuatroC()">Cierto</button>
+              <button class="btn btn-danger btn-md ml-3 col-4" onclick="cuatroF()">Falso</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Cinco -->
+      <div class="col-sm-12 col-md-6 mt-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-info"><b>Pregunta 5</b></h5>
+            <p class="card-text text-white">
+              La siguiente expresión: 2 + 2, ¿Es un ejemplo de propiedad?
+            </p>
+            <div class="row justify-content-center">
+              <button class="btn btn-success btn-md col-4" onclick="cincoC()">Cierto</button>
+              <button class="btn btn-danger btn-md ml-3 col-4" onclick="cincoF()">Falso</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Seis -->
+      <div class="col-sm-12 col-md-6 mt-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-info"><b>Pregunta 6</b></h5>
+            <p class="card-text text-white">
+              var persona = {
+              <br>
+              nombre = Juan
+              <br>
+              edad = 20
+              <br>
+              };
+              <br>
+              ¿Es correcto?
+            </p>
+            <div class="row justify-content-center">
+              <button class="btn btn-success btn-md col-4" onclick="seisC()">Cierto</button>
+              <button class="btn btn-danger btn-md ml-3 col-4" onclick="seisF()">Falso</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer py-1 bg-dark text-center">
+    <div class="container-fluid">
+      <div class="container-fluid col-sm-12 col-md-6 mt-4">
+        <p class="text-info">
+          VAROVI© Copyright 2021 Todos los Derechos Reservados.
+        </p>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+
+
+</body>
+<!-- JS Bootstrap 5.0-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<!-- JS Bootswatch -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script> -->
+<!-- SweetAlert -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<!-- JS Externo -->
+<script src="../js/app.js"></script>
+
+</html>

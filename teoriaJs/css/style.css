@@ -1,0 +1,29 @@
+/* 
+Fuentes:
+font-family: 'Akaya Telivigala', cursive;
+font-family: 'Josefin Sans', sans-serif;
+*/
+
+/* Hero */
+h1{
+    font-family: 'Akaya Telivigala', cursive; 
+    text-shadow: 2px 2px 4px yellow;
+}
+h4{
+    font-family: 'Josefin Sans', sans-serif;
+}
+hr{
+    background-color: blue;
+    height: 5px;
+}
+
+/* Main */
+.borde{
+    border: 2px solid blue;
+}
+.fondo{
+    background-color: #48D1CC;
+}
+.borde1{
+    border: 3px dotted #48D1CC;
+}
