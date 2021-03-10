@@ -15,7 +15,7 @@ Swal.fire({
         popup: 'animate__animated animate__zoomOutUp'
     },
     background: '#00008B',
-    timer: 1800
+    timer: 2000
 });
 
 // Función para la pregunta 1
@@ -154,7 +154,7 @@ function seisF() {
 }
 
 // Woow
-(function() {
+/* (function() {
     var Util,
       __bind = function(fn, me) {
         return function() {
@@ -377,4 +377,4 @@ function seisF() {
     offset: 100
     
   });
-  wow.init();
+  wow.init(); */
