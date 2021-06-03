@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Game</title>
+</head>
+
+<body>  
+    <!-- Navbar Carlos -->
+    <nav class="nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <h1 class="display-4 text-success mx-auto animate__animated animate__bounceIn animate__infinite m-5">
+                        Relaciona las columnas
+                    </h1>
+                    
+                </div>
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col-6">
+                            <img class="img-fluid" src="https://image.flaticon.com/icons/png/512/4127/4127787.png" alt="cyberpunk">
+                        </div>
+                        <div class="col-6">
+                            <h2 class="text-success display-1 text-center" id="vidas">
+                                0
+                            </h2>
+                            <p class="text-success text-center">
+                                Vidas
+                            </p>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido -->
+    <div class="container">
+        <div class="row">
+            <!-- Col 1 -->
+            <div class="col-sm-12 col-md-6">
+                <!-- list 1 -->
+                <ul class="list-group">
+                    <!-- li 1 -->
+                    <li
+                        class="list-group-item d-flex justify-content-between align-items-center animate__animated animate__backInDown">
+                        Indica la longitud de una cadena.
+                        <span class="badge bg-success rounded-pill">
+                            <p class="display-4">
+                                1
+                            </p>
+                        </span>
+                    </li>
+                    <!-- li 2 -->
+                    <li
+                        class="list-group-item d-flex justify-content-between align-items-center animate__animated animate__backInDown">
+                        Cambia las letras a minúsculas.
+                        <span class="badge bg-success rounded-pill">
+                            <p class="display-4">
+                                2
+                            </p>
+                        </span>
+                    </li>
+                    <!-- li 3 -->
+                    <li
+                        class="list-group-item d-flex justify-content-between align-items-center animate__animated animate__backInDown">
+                        Concatena varias cadenas te texto.
+                        <span class="badge bg-success rounded-pill">
+                            <p class="display-4">
+                                3
+                            </p>
+                        </span>
+                    </li>
+                    <!-- li 4 -->
+                    <li
+                        class="list-group-item d-flex justify-content-between align-items-center animate__animated animate__backInDown">
+                        Parte la cadena de texto determinando sus trozos a partir del caracter separador indicado.
+                        <span class="badge bg-success rounded-pill">
+                            <p class="display-4">
+                                4
+                            </p>
+                        </span>
+                    </li>
+                    <!-- li 5 -->
+                    <li
+                        class="list-group-item d-flex justify-content-between align-items-center animate__animated animate__backInDown">
+                        Une todos los elementos de un array para formar una cadena de texto.
+                        <span class="badge bg-success rounded-pill">
+                            <p class="display-4">
+                                5
+                            </p>
+                        </span>
+                    </li>
+                    <!-- li 6 -->
+                    <li
+                        class="list-group-item d-flex justify-content-between align-items-center animate__animated animate__backInDown">
+                        Cuenta las palabras del texto.
+                        <span class="badge bg-success rounded-pill">
+                            <p class="display-4">
+                                6
+                            </p>
+                        </span>
+                    </li>
+                    <!-- li 7 -->
+                    <li
+                        class="list-group-item d-flex justify-content-between align-items-center animate__animated animate__backInDown">
+                        Obtiene la longitud del texto.
+                        <span class="badge bg-success rounded-pill">
+                            <p class="display-4">
+                                7
+                            </p>
+                        </span>
+                    </li>
+                    <!-- li 8 -->
+                    <li
+                        class="list-group-item d-flex justify-content-between align-items-center animate__animated animate__backInDown">
+                        Obtiene el total de caracteres excluyendo espacios del inicio o del final del texto.
+                        <span class="badge bg-success rounded-pill">
+                            <p class="display-4">
+                                8
+                            </p>
+                        </span>
+                    </li>
+                    <!-- li 9 -->
+                    <li
+                        class="list-group-item d-flex justify-content-between align-items-center animate__animated animate__backInDown">
+                        Obtiene el total de caracteres sin contar espacios en blanco.
+                        <span class="badge bg-success rounded-pill">
+                            <p class="display-4">
+                                9
+                            </p>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <!-- Col 2 -->
+            <div class="col-sm-12 col-md-6">
+                <ul class="list-group">
+                    <!-- li 1 = img 8 respuesta 8-->
+                    <li
+                        class="list-group-item d-flex justify-content-between align-items-center animate__animated animate__backInUp">
+                        <div class="col-12">
+                            <img class="img-fluid" src="../img/8.png" alt="img-8" data-bs-toggle="modal"
+                                data-bs-target="#img8">
+                            <div class="input-group">
+                                <input type="number" value="8" hidden="true" id="respuesta8">
+
+                                <input type="number" class="form-control" min="1" max="9" required="true" id="datoUser8">
+                                <button class="btn btn-success ml-3" type="button" onclick="respuesta(8)">
+                                    Validar
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- li 2 = img 5 respuesta 6 segun yo -->
+                    <li
+                        class="list-group-item d-flex justify-content-between align-items-center animate__animated animate__backInUp">
+                        <div class="col-12">
+                            <img class="img-fluid" src="../img/5.png" alt="img-5" data-bs-toggle="modal"
+                                data-bs-target="#img5">
+                            <div class="input-group">
+                                <input type="number" value="5" hidden="true" id="respuesta5">
+
+                                <input type="number" class="form-control" min="1" max="9" required="true" id="datoUser5">
+                                <button class="btn btn-success ml-3" type="button" onclick="respuesta(5)">
+                                    Validar
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- li 3 = img 9 respuesta 7 segun yo-->
+                    <li
+                        class="list-group-item d-flex justify-content-between align-items-center animate__animated animate__backInUp">
+                        <div class="col-12">
+                            <img class="img-fluid" src="../img/9.png" alt="img-9" data-bs-toggle="modal"
+                                data-bs-target="#img9">
+                            <div class="input-group">
+                                <input type="number" value="9" hidden="true" id="respuesta9">
+
+                                <input type="number" class="form-control" min="1" max="9" required="true" id="datoUser9">
+                                <button class="btn btn-success ml-3" type="button" onclick="respuesta(9)">
+                                    Validar
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- li 4 = img 2 respuesta 2-->
+                    <li
+                        class="list-group-item d-flex justify-content-between align-items-center animate__animated animate__backInUp">
+                        <div class="col-12">
+                            <img class="img-fluid" src="../img/2.png" alt="img-2" data-bs-toggle="modal"
+                                data-bs-target="#img2">
+                            <div class="input-group">
+                                <input type="number" value="2" hidden="true" id="respuesta2">
+
+                                <input type="number" class="form-control" min="1" max="9" required="true" id="datoUser2">
+
+                                <button class="btn btn-success ml-3" type="button" onclick="respuesta(2)">
+                                    Validar
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- li 5 = img 1 respuesta 1-->
+                    <li
+                        class="list-group-item d-flex justify-content-between align-items-center animate__animated animate__backInUp">
+                        <div class="col-12">
+                            <img class="img-fluid" src="../img/1.png" alt="img-1" data-bs-toggle="modal"
+                                data-bs-target="#img1">
+                            <div class="input-group">
+
+                                <!-- hidden = para ocultar elementos -->
+                                <!-- value es igual a 1 = es el valor del input con lo que se va a comparar -->
+                                <!-- Hidden, oculto y con el valor correcto en la propiedad value y el id "respuesta[x]" -->
+                                <input type="number" value="1" hidden="true" id="respuesta1">
+
+                                <!-- Mostramos a user el input y asignamos id "datoUser1[x]" -->
+                                <input type="number" class="form-control" min="1" max="9" required="true" id="datoUser1">
+
+                                <!-- Respuesta la cual recibe parametros -->
+                                <button class="btn btn-success ml-3" type="button" onclick="respuesta(1)">
+                                    Validar
+                                </button>
+                                <!-- Esta etiqueta iba cubriendo el button
+                                    <span class="input-group-text"></span>
+                                    </span> 
+                                -->
+                            </div>
+                        </div>
+                    </li>
+                    <!-- li 6 = img 3 respuesta 3-->
+                    <li
+                        class="list-group-item d-flex justify-content-between align-items-center animate__animated animate__backInUp">
+                        <div class="col-12">
+                            <img class="img-fluid" src="../img/3.png" alt="img-3" data-bs-toggle="modal"
+                                data-bs-target="#img3">
+                            <div class="input-group">
+                                <input type="number" value="3" hidden="true" id="respuesta3">
+                                <input type="number" class="form-control" min="1" max="9" required="true" id="datoUser3">
+                                <button class="btn btn-success ml-3" type="button" onclick="respuesta(3)">
+                                    Validar
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- li 7 = img 6 respuesta 5 segun yo-->
+                    <li
+                        class="list-group-item d-flex justify-content-between align-items-center animate__animated animate__backInUp">
+                        <div class="col-12">
+                            <img class="img-fluid" src="../img/6.png" alt="img-6" data-bs-toggle="modal"
+                                data-bs-target="#img6">
+                            <div class="input-group">
+                                <input type="number" value="6" hidden="true" id="respuesta6">
+
+                                <input type="number" class="form-control" min="1" max="9" required="true" id="datoUser6">
+                                <button class="btn btn-success ml-3" type="button" onclick="respuesta(6)">
+                                    Validar
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- li 8 = img 7 respuesta 4 segun yo-->
+                    <li
+                        class="list-group-item d-flex justify-content-between align-items-center animate__animated animate__backInUp">
+                        <div class="col-12">
+                            <img class="img-fluid" src="../img/7.png" alt="img-7" data-bs-toggle="modal"
+                                data-bs-target="#img7">
+                            <div class="input-group">
+                                <input type="number" value="7" hidden="true" id="respuesta7">
+
+                                <input type="number" class="form-control" min="1" max="9" required="true" id="datoUser7">
+                                <button class="btn btn-success ml-3" type="button" onclick="respuesta(7)">
+                                    Validar
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- li 9 = img 4 respuesta 9 segun yo-->
+                    <li
+                        class="list-group-item d-flex justify-content-between align-items-center animate__animated animate__backInUp">
+                        <div class="col-12">
+                            <img class="img-fluid" src="../img/4.png" alt="img-4" data-bs-toggle="modal"
+                                data-bs-target="#img4">
+                            <div class="input-group">
+                                <input type="number" value="4" hidden="true" id="respuesta4">
+                                
+                                <input type="number" class="form-control" min="1" max="9" required="true" id="datoUser4">
+                                <button class="btn btn-success ml-3" type="button" onclick="respuesta(4)">
+                                    Validar
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+
+                <!-- Sección de modales -->
+                <!-- Modal 1 = img 8 -->
+                <div class="modal fade" id="img8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <img class="img-fluid" src="../img/8.png" alt="img8">
+                        <div class="modal-content">
+                            <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal"
+                                aria-label="Close">X</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 2 = img 5 -->
+                <div class="modal fade" id="img5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <img class="img-fluid" src="../img/5.png" alt="img5">
+                        <div class="modal-content">
+                            <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal"
+                                aria-label="Close">X</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 3 = img 9 -->
+                <div class="modal fade" id="img9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <img class="img-fluid" src="../img/9.png" alt="img9">
+                        <div class="modal-content">
+                            <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal"
+                                aria-label="Close">X</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 4 = img 2 -->
+                <div class="modal fade" id="img2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <img class="img-fluid" src="../img/2.png" alt="img2">
+                        <div class="modal-content">
+                            <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal"
+                                aria-label="Close">X</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 5 = img 1 -->
+                <div class="modal fade" id="img1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <img class="img-fluid" src="../img/1.png" alt="img1">
+                        <div class="modal-content">
+                            <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal"
+                                aria-label="Close">X</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 6 = img 3 -->
+                <div class="modal fade" id="img3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <img class="img-fluid" src="../img/3.png" alt="img3">
+                        <div class="modal-content">
+                            <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal"
+                                aria-label="Close">X</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 7 = img 6 -->
+                <div class="modal fade" id="img6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <img class="img-fluid" src="../img/6.png" alt="img6">
+                        <div class="modal-content">
+                            <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal"
+                                aria-label="Close">X</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 8 = img 7 -->
+                <div class="modal fade" id="img7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <img class="img-fluid" src="../img/7.png" alt="img7">
+                        <div class="modal-content">
+                            <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal"
+                                aria-label="Close">X</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 9 = img 4 -->
+                <div class="modal fade" id="img4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <img class="img-fluid" src="../img/4.png" alt="img4">
+                        <div class="modal-content">
+                            <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal"
+                                aria-label="Close">X</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-3 bg-success mt-5">
+        <h3 class="text-secondary text-center animate__animated animate__pulse animate__infinite">
+            dev Virgy VaRo 2021
+        </h3>
+    </div>
+
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
+<!-- sweet alert-->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<!-- JS Externo -->
+<script src="../js/app.js"></script>
+
+</html>
